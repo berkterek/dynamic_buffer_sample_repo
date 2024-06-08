@@ -36,7 +36,7 @@ Ensure you have the following software installed:
 
 ### Single Entity Spawning
 
-The `SingleEntitySpawner` script demonstrates how to spawn a single entity and use a dynamic buffer to manage its components.
+The `OneMonsterSpawnSystem` script demonstrates how to spawn a single entity.
 
 ```csharp
     [BurstCompile]
@@ -72,7 +72,7 @@ The `SingleEntitySpawner` script demonstrates how to spawn a single entity and u
 
 ### Multiple Entity Spawning
 
-The `MultipleEntitySpawner` script shows how to spawn multiple entities using dynamic buffers efficiently.
+The `MultiMonsterSpawnerSystem` script shows how to spawn multiple entities using dynamic buffers efficiently.
 
 ```csharp
     [BurstCompile]
