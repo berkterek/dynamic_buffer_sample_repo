@@ -1,8 +1,6 @@
 using Components;
 using Unity.Entities;
-using Unity.Mathematics;
 using UnityEngine;
-using Random = Unity.Mathematics.Random;
 
 namespace Sample.Authorings
 {
@@ -22,12 +20,6 @@ namespace Sample.Authorings
                 AddComponent<MoveData>(entity, new ()
                 {
                     MoveSpeed = authoring.MoveSpeed
-                });
-
-                uint seed = (uint)Mathf.Abs(entity.Index + entity.Version + new System.Random().Next());
-                AddComponent<RandomData>(entity, new()
-                {
-                    Random = Random.CreateFromIndex(seed)
                 });
             }
         }

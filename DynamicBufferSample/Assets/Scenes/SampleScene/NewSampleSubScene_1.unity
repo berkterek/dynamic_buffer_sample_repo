@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &349611458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +152,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32ea1597817428a83a81f362be4a456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: 351562281511200084, guid: a24969cc957bf4c298dd0a37b1488b5e, type: 3}
+  - {fileID: 351562281511200084, guid: 9d4e512f088ab4589a16d799d002b9fd, type: 3}
+  - {fileID: 351562281511200084, guid: ba29717e112304e518055ff57e480610, type: 3}
+  - {fileID: 351562281511200084, guid: c535520fea48348c3a2d439002057989, type: 3}
+  - {fileID: 351562281511200084, guid: 060c4c685e358418694fd5cf4e14dcc7, type: 3}
 --- !u!4 &349611459
 Transform:
   m_ObjectHideFlags: 0
@@ -211,6 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 922897cb34d664538a3c396d363cb710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefab: {fileID: 351562281511200084, guid: a24969cc957bf4c298dd0a37b1488b5e, type: 3}
+  MaxSpawnTime: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
